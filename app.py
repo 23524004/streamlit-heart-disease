@@ -75,6 +75,11 @@ def main():
     
     # show the prediction
     st.success(diagnosis)
+
+
+# Display the scikit-learn version
+st.write("scikit-learn version:", sklearn.__version__)
+
     
 
 if __name__=='__main__':
